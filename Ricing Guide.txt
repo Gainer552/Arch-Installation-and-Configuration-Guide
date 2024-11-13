@@ -2,8 +2,8 @@
 
 # Intro:
 
- Ricing is the act of customizing an Arch Linux distro, making it one of a kind. Follow this guide to customize yours after
- installing Arch Linux.
+Ricing is the act of customizing an Arch Linux distro, making it one of a kind. Follow this guide to customize yours after
+installing Arch Linux.
 
 # Choose a Tiling Window Manager
 
