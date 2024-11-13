@@ -1,0 +1,93 @@
+# Core Configuration
+
+# Monitor Settings:
+
+1. Set monitor resolution.
+2. Configure multiple monitors if needed.
+
+# Workspace Management:
+
+1. Define workspace layouts and behaviors.
+2. Set rules for workspace switching.
+
+# Input Devices:
+1. Configure keyboard, mouse, and other input devices.
+2. Set custom key bindings.
+
+# Window Management:
+
+1. Define window borders and decorations.
+2. Set floating window rules.
+3. Customize gap and padding settings.
+4. Configure scratchpads and toggle windows.
+5. Specify app-specific rules.
+
+# Compositor Settings:
+
+1. Set up compositor preferences.
+2. Adjust window transparency for visual effects.
+
+# Power Management:
+1. Configure power-saving settings.
+2. Set screen timeout and sleep settings.
+3. Visual Aesthetics
+
+# Background & Wallpaper:
+
+1. Select and apply a wallpaper for your desktop background.
+2. Color Schemes and Fonts:
+3. Choose system color schemes to match your theme.
+4. Set custom fonts for consistency across applications.
+
+# System Theme:
+
+1. Apply a consistent theme to match your desktop environment.
+2. Customize window decorations as per your color scheme.
+3. Desktop Elements
+
+# Top Bar / Status Bar:
+
+1. Configure the top bar or status bar (Waybar, Polybar, etc.).
+2. Add modules like CPU, memory, network, and battery indicators.
+
+# System Tray:
+
+1. Set up and customize the system tray for essential app indicators.
+
+# Dock:
+
+1. Install and configure a dock for quick access to frequently used apps.
+2. Calendar & Clock:
+3. Add and configure a calendar widget.
+4. Customize clock display in the top bar or status bar.
+5. Application Behavior & Rules
+
+# App Menu:
+
+1. Set up an application launcher (like Rofi, dmenu, or similar).
+2. App-Specific Rules:
+3. Apply specific rules for select applications (e.g., default workspace, window size, and position).
+
+# Floating Window Rules:
+
+1. Define rules for specific apps to always launch in floating mode.
+2. Notifications & Automation
+
+# Autostart Applications:
+
+1. Configure applications to start automatically on login.
+
+# Notifications:
+
+1. Set up a notification daemon to manage alerts and messages.
+2. Final Customization
+
+# Gap and Padding Adjustments:
+
+1. Fine-tune gap and padding settings around windows.
+2. Transparency and Effects:
+3. Adjust transparency levels and effects for window focus and blur.
+
+# Bar Configuration (Optional):
+
+1. Set additional configurations for custom bars, e.g., Polybar.
