@@ -1,0 +1,80 @@
+# Basic System Commands:
+
+- sudo [COMMAND] (Execute command as Super User).
+- date (Prints date & time).
+- whoami (Shows username).
+- id (Shows user id, group id, groups, and wheel).
+- chsh (Changes shell).
+- [SHELLNAME] (Changes shell).
+- history -c (Clears bash command history).
+- type (Shows the type of a command).
+- history (Shows all previous commands executed).
+
+# Navigating File System:
+
+- pwd (Prints working directory).
+- cd (Change directory).
+- cd .. (Go back 1 directory).
+- cd ../../.. (Go back 3 directories.)
+- cat (Shows contents of a file).
+- ls (Show contents of directory).
+- which (Locates binaries in your PATH).
+- find (Searches in every directory).
+- whereis (Locates binaries).
+- locate (Searches the entire system for a keyword).
+- grep (Locates specific text within a file/directory).
+- sudo find / -name "filename" 2>/dev/null (Finds any file on the system.)
+
+# System Updates:
+
+- sudo pacman -Syu (Full system upgrade).
+- yay -Syu (Updates package list for yay).
+
+# Networking:
+
+- uname -a (Shows host name and sys info).
+- iwconfig (Shows network info).
+- ifconfig (Shows ip addresses).
+
+# User Management:
+
+- sudo useradd [USERNAME] (Creates a user account).
+- sudo useradd -g [GROUPNAME] [USERNAME] (Adds a user to a group).
+- sudo useradd -u [UID] [USERNAME] (Create user by user id).
+- su [USERNAME] (Switches user account).
+- passwd [USERNAME] (Changes a users password).
+
+# Log Management:
+
+- sudo journalctl -b (Shows errors in log files).
+- sudo systemctl --failed (Shows services that have failed in systemd).
+
+# File Operations:
+
+- man (Shows manual for a command).
+- more (Shows contents of a file, with ability to scroll).
+- chmod [OPTIONS] [NUMBERS] (Changes file/dir permissions).
+- cat /etc/passwd (Shows users and ID's on system).
+- shred -v -z -n 25 [PATH & FILENAME] (Securely shreds a file, shows 
+progress, and overwrites the data 25 times).
+- touch [FILENAME] (Creates an empty file).
+- rm [FILENAME] (Removes a file).
+- mv [SOURCE] [DESTINATION] (Moves a file to a specified directory).
+- cp [SOURCE] [DESTINATION] (Copies a file to a specified directory).
+- mv [FILENAME] > [NEW FILENAME AND EXTENSION] (Renames a file and adds a specified extension).
+
+
+# Process Management:
+
+- ps aux | grep [USERNAME] (Shows running processes for specified user).
+
+# Environment Management:
+
+- alias [COMMAND]='[ALIAS]' (Adds an alias to a command).
+- set $PATH=[NEWPATH] [BINARYPATH] (Temporarily sets a new path for a binary).
+
+Notes:
+
+Structure of commands is command (ls) -> arguments (-lah, --all) -> modifiers (i.e. =Desktop).
+Commands are case sensitive. When executing a command the shell will search for an alias, then a reserved word, then a function, then a builtin.
+
