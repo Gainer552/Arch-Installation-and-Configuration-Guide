@@ -11,6 +11,7 @@
 2. Set rules for workspace switching.
 
 # Input Devices:
+
 1. Configure keyboard, mouse, and other input devices.
 2. Set custom key bindings.
 
@@ -28,6 +29,7 @@
 2. Adjust window transparency for visual effects.
 
 # Power Management:
+
 1. Configure power-saving settings.
 2. Set screen timeout and sleep settings.
 3. Visual Aesthetics
