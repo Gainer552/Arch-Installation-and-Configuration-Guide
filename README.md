@@ -1,8 +1,8 @@
-# Description
+**Description**
 
 This is a collection of step-by-step documentation for new Arch Linux users, which covers installing Arch Linux, configuring Arch Linux, how to customize Arch Linux, and gives you some basic commands to use it.
 
-# Disclaimer
+**Disclaimer**
 
 The information provided in this repository, including the guides on Arch Linux installation, configuration, ricing, package management, and system hardening, is for general informational purposes only. These guides are designed to assist new users in exploring and customizing Arch Linux but come without any warranties or guarantees, expressed or implied.
 
