@@ -1,0 +1,8 @@
+﻿Connect to WiFi Using NMCLI (Network Manager)
+
+1. sudo pacman -S – Installs NetworkManager.
+2. nmcli radio wifi on – Turns your WiFi adapter on.
+3. nmcli radio WiFi – Verify that the WiFi adapter is on.
+4. nmcli dev WiFi list – See network connections.
+5. Sudo nmcli dev wifi connect “[NETWORK NAME]” password “[PASSWORD]” – connects device to the network.
+6. Ping -c 3 www.google.com – Confirm whether you are connected to the internet. You should see “0% packet loss”.
